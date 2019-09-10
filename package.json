@@ -4,9 +4,13 @@
   "description": "",
   "main": "countAllFromTown.test.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "mocha": ".node_modules/bin/mocha"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
 }
